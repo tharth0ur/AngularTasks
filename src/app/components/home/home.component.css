@@ -1,0 +1,20 @@
+#container {
+    text-align: center;
+    padding: 10% 40% 10% 40%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+h1 {
+    margin-bottom: 20%;
+    color: white;
+}
+#homebtn {
+    left : 0;
+    float: left;
+    position: fixed;
+}

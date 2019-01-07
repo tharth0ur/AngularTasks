@@ -1,0 +1,23 @@
+<div id="container">
+  <h1>Our Tasks</h1>
+  <button type="button" class="btn btn-danger btn-block" routerLink="/first" routerLinkActive="active" data-toggle="modal"
+    data-target="#exampleModalCenter">
+    First task
+  </button>
+
+  <button type="button" class="btn btn-warning btn-block">
+    <a target="_blank" routerLink="/second" routerLinkActive="active">
+      Second task
+    </a>
+  </button>
+
+  <button type="button" class="btn btn-success btn-block" routerLink="/third" routerLinkActive="active">
+    <a routerLink="/third" routerLinkActive="active">
+      Third task
+    </a>
+  </button>
+</div>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <app-first></app-first>
+</div>
